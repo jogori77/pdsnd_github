@@ -4,9 +4,9 @@
 
 The bikeshare project aims to give stats to users about different relevant info. Trip times, most popular trips, bikeshare user´s info...
 
-### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The following files are used:
+File | Description
+------------ | -------------
+bikeshare.py | The python code
+chicago.csv, new_york_city.csv and washington.csv | The .csv files with all the data
 
