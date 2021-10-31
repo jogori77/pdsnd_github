@@ -2,7 +2,6 @@
 import time
 import pandas as pd
 import numpy as np
-import time
 
 #prepare city data dictionary to be able to load the right file after user input, also other useful dictionaries to convert data to more user friendly format later on
 CITY_DATA = { 'chicago': 'chicago.csv',
