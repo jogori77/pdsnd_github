@@ -100,8 +100,7 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month (also used the months_conv dictionary defined at the start to convert back to text month)
-    common_month = df['month'].mode()[0]
-    print('  -> Most common month:',months_conv[common_month],'\n')
+    print('  -> Most common month:',months_conv[common_month = df['month'].mode()[0]],'\n')
 
     # TO DO: display the most common day of week
     common_dow = df['day_of_week'].mode()[0]
@@ -111,7 +110,7 @@ def time_stats(df):
     df['start_hour'] = df['Start Time'].dt.hour
     common_start_hour = df['start_hour'].mode()[0]
     print('  -> Most common start hour: '+str(common_start_hour)+'h\n')
-    
+
     #finish the function
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*60)
@@ -135,7 +134,7 @@ def station_stats(df):
     df['trip'] = df['Start Station']+' - '+df['End Station']
     common_trip = df['trip'].mode()[0]
     print('  -> Most frequent combination of start station and end station trip:',common_trip,'\n')
-    
+
     #finish the function
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*60)
@@ -156,7 +155,7 @@ def trip_duration_stats(df):
     mean_travel_time = time.gmtime(df['Trip Duration'].mean())
     simple_mtt = time.strftime("%H:%M:%S",mean_travel_time)
     print('  -> Mean travel time from all users (HH:MM:SS):',simple_mtt,'\n')
-    
+
     #finish the function
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*60)
@@ -190,7 +189,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*60)
 
- 
+
 def show_raw(df):
     """Displays raw statistics
        Asks the user whether raw statistics have to be shown. In case they are, shows 5 rows at a time and keeps asking whether he/she wants to see the next 5.
@@ -210,8 +209,8 @@ def show_raw(df):
             print(df.iloc[start:end,1:])
             start += 5
             end +=5
-    
-    
+
+
 def main():
     while True:
         #load the relevant data to be used
