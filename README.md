@@ -2,8 +2,7 @@
 
 **BIKESHARE project**
 
-### Description
-Describe what your project is about and what it does
+The bikeshare project aims to give stats to users about different relevant info. Trip times, most popular trips, bikeshare user´s info...
 
 ### Files used
 Include the files used
