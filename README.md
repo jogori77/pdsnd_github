@@ -1,6 +1,6 @@
 *Project and README file created on 25th October 2021 in Ireland*
 
-**BIKESHARE project**
+**BIKESHARE project by Joel Gomez**
 
 The bikeshare project aims to give stats to users about different relevant info. Trip times, most popular trips, bikeshare user´s info...
 
